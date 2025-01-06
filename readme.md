@@ -6,3 +6,11 @@ After updating the schema (if needed), run the following commands to apply chang
 
 npx prisma migrate dev --name update-site-schema
 npx prisma generate
+
+
+add .env with
+---
+NODE_ENV = development
+PORT = 4200
+DATABASE_URL="postgresql://postgres:1812@localhost:5432/twitter?schema=public"
+---
