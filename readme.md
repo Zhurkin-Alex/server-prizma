@@ -9,6 +9,7 @@ npx prisma generate
 
 
 add .env with
+
 ->
 NODE_ENV = development
 PORT = 4200
