@@ -12,6 +12,6 @@ npx prisma generate
 
 Create a `.env` file with the following content:
 
-NODE_ENV = development
-PORT = 4200
+NODE_ENV=development
+PORT=4200
 DATABASE_URL="postgresql://postgres:1812@localhost:5432/twitter?schema=public"
