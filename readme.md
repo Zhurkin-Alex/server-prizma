@@ -10,8 +10,8 @@ npx prisma generate
 
 add .env with
 
-->
+*
 NODE_ENV = development
 PORT = 4200
 DATABASE_URL="postgresql://postgres:1812@localhost:5432/twitter?schema=public"
-<-
+*
