@@ -8,10 +8,10 @@ npx prisma migrate dev --name update-site-schema
 npx prisma generate
 
 
-add .env with
+### Environment Variables
 
-*
+Create a `.env` file with the following content:
+
 NODE_ENV = development
 PORT = 4200
 DATABASE_URL="postgresql://postgres:1812@localhost:5432/twitter?schema=public"
-*
