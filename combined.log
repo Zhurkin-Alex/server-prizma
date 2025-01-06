@@ -1,0 +1,79 @@
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T09:43:49.338Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T09:55:04.079Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:27:19.651Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:35:39.031Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:36:32.868Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:36:58.069Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:38:51.112Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:39:06.173Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:39:26.779Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:39:39.008Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:41:41.975Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T10:57:10.136Z"}
+{"level":"error","message":"Error: Failed to lookup view \"profile\" in views directory \"/Users/a.zhurkin/Desktop/learn/node/twitter-ts/dist/views\"\n    at Function.render (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/application.js:597:17)\n    at ServerResponse.render (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/response.js:1049:7)\n    at /Users/a.zhurkin/Desktop/learn/node/twitter-ts/dist/server.js:33:9\n    at Layer.handle [as handle_request] (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/express/lib/router/index.js:280:10)","timestamp":"2024-12-26T11:00:05.096Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T11:28:20.539Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T11:29:40.038Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T11:31:47.517Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T11:44:10.410Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:05:09.279Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:06:20.538Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:06:25.669Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:06:35.236Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:06:53.570Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:07:44.259Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:08:00.647Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:08:08.415Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:09:28.767Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:10:07.093Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:10:20.404Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:10:40.957Z"}
+{"level":"error","message":"SyntaxError: Expected ',' or '}' after property value in JSON at position 14 (line 3 column 3)\n    at JSON.parse (<anonymous>)\n    at parse (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/body-parser/lib/types/json.js:92:19)\n    at /Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/raw-body/index.js:238:16)\n    at done (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/Users/a.zhurkin/Desktop/learn/node/twitter-ts/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:515:28)\n    at endReadableNT (node:internal/streams/readable:1589:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-12-26T12:13:18.843Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:20:50.030Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:39:38.059Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:40:55.284Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:41:21.797Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:42:39.694Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:42:52.827Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:48:11.646Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:50:02.648Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:56:13.554Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T12:58:35.504Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:00:28.305Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:02:40.540Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:04:01.458Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:09:07.680Z"}
+{"level":"error","message":[{"logo":"url_1","name":"Games 1","rss":"https://www.buzzfeed.com/geeky.xml","template":"q4ckydDYdE9MiEgZlVhS"},{"logo":"url_2","name":"Games 2","rss":"https://www.buzzfeed.com/geeky.xml","template":"8IvSvTOlleilxr5ZkZXs"}],"timestamp":"2024-12-26T13:09:17.393Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:09:17.424Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:10:22.919Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:10:38.666Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:12:37.298Z"}
+{"0":{"logo":"url_1","name":"Games 1","rss":"https://www.buzzfeed.com/geeky.xml","template":"q4ckydDYdE9MiEgZlVhS"},"1":{"logo":"url_2","name":"Games 2","rss":"https://www.buzzfeed.com/geeky.xml","template":"8IvSvTOlleilxr5ZkZXs"},"level":"info","message":"Received sites:","timestamp":"2024-12-26T13:13:53.965Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:13:53.996Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:18:04.408Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:19:31.466Z"}
+{"0":{"logo":"url_1","name":"Games 1","rss":"https://www.buzzfeed.com/geeky.xml","template":"q4ckydDYdE9MiEgZlVhS"},"1":{"logo":"url_2","name":"Games 2","rss":"https://www.buzzfeed.com/geeky.xml","template":"8IvSvTOlleilxr5ZkZXs"},"level":"info","message":"Received sites:","timestamp":"2024-12-26T13:19:38.600Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:19:38.623Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:22:56.196Z"}
+{"0":{"logo":"url_1","name":"Games 1","rss":"https://www.buzzfeed.com/geeky.xml","template":"q4ckydDYdE9MiEgZlVhS"},"1":{"logo":"url_2","name":"Games 2","rss":"https://www.buzzfeed.com/geeky.xml","template":"8IvSvTOlleilxr5ZkZXs"},"level":"info","message":"Received sites:","timestamp":"2024-12-26T13:23:32.153Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:23:32.196Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:24:23.607Z"}
+{"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:24:29.668Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:32:27.965Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:40:50.769Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:41:06.386Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:45:36.340Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:45:54.925Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:47:37.277Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2024-12-26T13:47:59.150Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-05T20:58:21.526Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:25:19.567Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:25:22.799Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:31:03.848Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:31:35.361Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:32:13.007Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:32:34.023Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:35:19.165Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T08:39:33.243Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T09:08:27.678Z"}
+{"clientVersion":"6.1.0","level":"error","name":"PrismaClientValidationError","timestamp":"2025-01-06T09:08:52.493Z"}
+{"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-06T12:14:45.017Z"}
