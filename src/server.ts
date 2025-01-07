@@ -25,8 +25,22 @@ app.set('view engine', 'ejs');
 // Middleware for parsing JSON
 app.use(express.json());
 
+// app.use(cors({
+//     origin: 'http://localhost:8080'
+// }));
+const allowedOrigins = [
+    'http://localhost:8080', // Локальный фронтенд
+    'https://your-frontend-domain.vercel.app', // Домен фронтенда на Vercel
+];
+
 app.use(cors({
-    origin: 'http://localhost:8080'
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
 }));
 
 // Routes
