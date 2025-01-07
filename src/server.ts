@@ -30,7 +30,7 @@ app.use(express.json());
 // }));
 const allowedOrigins = [
     'http://localhost:8080', // Локальный фронтенд
-    'https://your-frontend-domain.vercel.app', // Домен фронтенда на Vercel
+    'https://server-prizma.vercel.app', // Домен фронтенда на Vercel
 ];
 
 app.use(cors({
