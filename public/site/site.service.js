@@ -29,6 +29,7 @@ class SiteService {
         }
         catch (error) {
             log_1.default.error(error);
+            console.error('Prisma error:', error.meta || error.message || error);
             throw new Error('Error creating sites');
         }
     }
