@@ -1,13 +1,14 @@
 {
   "name": "twitter",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development ts-node-dev --respawn --transpile-only --exit-child --compiler-options '{\"module\":\"commonjs\"}' -r tsconfig-paths/register src/server.ts",
+    "dev": "NODE_ENV=development ts-node-dev --respawn --transpile-only --exit-child --compiler-options '{\"module\":\"commonjs\"}' -r tsconfig-paths/register src/index.ts",
     "test": "jest",
-    "build": "tsc",
-    "start": "NODE_ENV=production node dist/server.js"
+    "postinstall": "prisma generate",
+    "build": "prisma generate && tsc",
+    "start": "NODE_ENV=production node public/index.js"
   },
   "devDependencies": {
     "@types/compression": "^1.7.5",

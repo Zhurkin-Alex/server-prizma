@@ -9,7 +9,12 @@ import compression from 'compression';
 import cors from 'cors';
 import { siteRouter } from './site/site.controller';
 
-dotenv.config();
+// dotenv.config();
+if (process.env.NODE_ENV === 'production') {
+    dotenv.config({ path: '.env.production' });
+} else {
+    dotenv.config({ path: '.env' });
+}
 
 const app = express();
 const PORT = process.env.PORT || 4100;
@@ -85,10 +90,15 @@ async function main() {
     }
 }
 
-main().then(async()=> {
-    await prisma.$connect()
-}).catch(async(e)=>{
-    console.error(e)
-    await prisma.$disconnect()
-    process.exit(1)
-})
+
+if (process.env.NODE_ENV === 'development') {
+    main().then(async()=> {
+        await prisma.$connect()
+    }).catch(async(e)=>{
+        console.error(e)
+        await prisma.$disconnect()
+        process.exit(1)
+    })
+}
+
+export default app;
