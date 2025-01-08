@@ -35,7 +35,7 @@ app.use(express.json());
 // }));
 const allowedOrigins = [
     'http://localhost:8080', // Локальный фронтенд
-    'https://server-prizma-cb30x1zqu-zhurkinalexs-projects.vercel.app', // Домен фронтенда на Vercel
+    'https://server-prizma-supabase.vercel.app', // Домен фронтенда на Vercel
 ];
 
 app.use(cors({
