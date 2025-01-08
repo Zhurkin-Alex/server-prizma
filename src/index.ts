@@ -92,6 +92,18 @@ async function main() {
 
 
 if (process.env.NODE_ENV === 'development') {
+    // Main function to start the server
+    async function main() {
+        try {
+            app.listen(PORT, () => {
+                logger.info(`Server is running on port ${PORT}`)
+            });
+        } catch (err) {
+            logger.error(`Failed to start server: ${(err as Error).message}`);
+            process.exit(1);
+        }
+    }
+
     main().then(async()=> {
         await prisma.$connect()
     }).catch(async(e)=>{
