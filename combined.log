@@ -89,3 +89,9 @@
 {"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-08T13:52:39.667Z"}
 {"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-08T14:01:37.807Z"}
 {"level":"info","message":"Server is running on port 4200","timestamp":"2025-01-08T14:04:04.919Z"}
+{"level":"info","message":"Server is running on port 4100","timestamp":"2025-01-15T13:09:30.798Z"}
+{"level":"info","message":"Server is running on port 4100","timestamp":"2025-01-15T13:12:27.397Z"}
+{"level":"info","message":"Server is running on port 4100","timestamp":"2025-01-15T13:19:41.312Z"}
+{"level":"info","message":"Server is running on port 4100","timestamp":"2025-01-15T13:20:07.718Z"}
+{"level":"info","message":"Server is running on port 4100","timestamp":"2025-01-15T13:43:03.788Z"}
+{"clientVersion":"6.1.0","level":"error","name":"PrismaClientValidationError","timestamp":"2025-01-15T13:49:36.201Z"}

@@ -8,6 +8,7 @@ import helmet from 'helmet';
 import compression from 'compression';
 import cors from 'cors';
 import { siteRouter } from './site/site.controller';
+import { templatesRouter } from './templates/templates.controller';
 
 // dotenv.config();
 if (process.env.NODE_ENV === 'production') {
@@ -51,6 +52,7 @@ app.use(cors({
 // Routes
 app.use('/api/twits', twitRouter);
 app.use('/api/site', siteRouter);
+app.use('/api/site/templates', templatesRouter);
 
 
 // Profile route

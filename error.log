@@ -9,3 +9,4 @@
 {"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:23:32.196Z"}
 {"clientVersion":"6.1.0","code":"P2021","level":"error","meta":{"modelName":"Site","table":"public.Site"},"name":"PrismaClientKnownRequestError","timestamp":"2024-12-26T13:24:29.668Z"}
 {"clientVersion":"6.1.0","level":"error","name":"PrismaClientValidationError","timestamp":"2025-01-06T09:08:52.493Z"}
+{"clientVersion":"6.1.0","level":"error","name":"PrismaClientValidationError","timestamp":"2025-01-15T13:49:36.201Z"}

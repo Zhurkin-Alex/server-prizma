@@ -18,13 +18,12 @@ router.post('/create', async (req, res) => {
 });
 router.post('/create-multiple', async (req, res) => {
     try {
-        console.log('Received data:', req.body);
         const sites = await siteService.createSites(req.body);
         res.status(201).json(sites);
     }
     catch (error) {
-        console.error('Error in /create-multiple:', error);
-        res.status(500).json({ message: "An error occurred while creating the sites.", error: error.message });
+        console.error(error);
+        res.status(500).json({ message: "An error occurred while creating the sites." });
     }
 });
 router.get('/sites', async (req, res) => {

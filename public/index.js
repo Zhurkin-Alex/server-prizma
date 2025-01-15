@@ -13,6 +13,7 @@ const helmet_1 = __importDefault(require("helmet"));
 const compression_1 = __importDefault(require("compression"));
 const cors_1 = __importDefault(require("cors"));
 const site_controller_1 = require("./site/site.controller");
+const templates_controller_1 = require("./templates/templates.controller");
 // dotenv.config();
 if (process.env.NODE_ENV === 'production') {
     dotenv_1.default.config({ path: '.env.production' });
@@ -50,6 +51,7 @@ app.use((0, cors_1.default)({
 // Routes
 app.use('/api/twits', twit_controller_1.twitRouter);
 app.use('/api/site', site_controller_1.siteRouter);
+app.use('/api/site/templates', templates_controller_1.templatesRouter);
 // Profile route
 app.get('/profile', (req, res) => {
     const user = {

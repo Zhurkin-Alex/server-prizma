@@ -25,3 +25,8 @@ model Site {
   rss       String
   logo      String
 }
+
+model Template {
+  id        Int     @id @default(autoincrement())
+  name      String
+}
