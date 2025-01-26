@@ -14,6 +14,7 @@ const compression_1 = __importDefault(require("compression"));
 const cors_1 = __importDefault(require("cors"));
 const site_controller_1 = require("./site/site.controller");
 const templates_controller_1 = require("./templates/templates.controller");
+const auth_routes_1 = require("./auth/auth.routes");
 // dotenv.config();
 if (process.env.NODE_ENV === 'production') {
     dotenv_1.default.config({ path: '.env.production' });
@@ -37,6 +38,7 @@ app.use(express_1.default.json());
 const allowedOrigins = [
     'http://localhost:8080', // Локальный фронтенд
     'https://server-prizma-supabase.vercel.app', // Домен фронтенда на Vercel
+    'http://localhost:3001',
 ];
 app.use((0, cors_1.default)({
     origin: function (origin, callback) {
@@ -52,6 +54,7 @@ app.use((0, cors_1.default)({
 app.use('/api/twits', twit_controller_1.twitRouter);
 app.use('/api/site', site_controller_1.siteRouter);
 app.use('/api/site/templates', templates_controller_1.templatesRouter);
+app.use('/api/auth', auth_routes_1.authRouter);
 // Profile route
 app.get('/profile', (req, res) => {
     const user = {
