@@ -9,6 +9,7 @@ import compression from 'compression';
 import cors from 'cors';
 import { siteRouter } from './site/site.controller';
 import { templatesRouter } from './templates/templates.controller';
+import { authRouter } from './auth/auth.routes';
 
 // dotenv.config();
 if (process.env.NODE_ENV === 'production') {
@@ -37,6 +38,7 @@ app.use(express.json());
 const allowedOrigins = [
     'http://localhost:8080', // Локальный фронтенд
     'https://server-prizma-supabase.vercel.app', // Домен фронтенда на Vercel
+    'http://localhost:3001',
 ];
 
 app.use(cors({
@@ -53,7 +55,7 @@ app.use(cors({
 app.use('/api/twits', twitRouter);
 app.use('/api/site', siteRouter);
 app.use('/api/site/templates', templatesRouter);
-
+app.use('/api/auth', authRouter)
 
 // Profile route
 app.get('/profile', (req: Request, res: Response) => {
