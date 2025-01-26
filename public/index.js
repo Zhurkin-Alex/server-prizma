@@ -39,6 +39,7 @@ const allowedOrigins = [
     'http://localhost:8080', // Локальный фронтенд
     'https://server-prizma-supabase.vercel.app', // Домен фронтенда на Vercel
     'http://localhost:3001',
+    'https://nextjs-snowy-six-62.vercel.app',
 ];
 app.use((0, cors_1.default)({
     origin: function (origin, callback) {
